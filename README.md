@@ -57,3 +57,20 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 2. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
 
 - **Android Butterknife** is a **view binding tool** that uses annotations to **generate boilerplate code** for us.
+
+## How to contribute
+
+All contributions are welcome, from code to documentation to graphics to design suggestions to bug reports. Please use GitHub to its fullest. Whatever you have to offer, we can use it!
+
+
+## Support & Contact
+
+- Mobile number: (+254) 798731203
+
+- Email Address: collo.kariss@gmail.com
+
+- github-username: [zecollokaris](https://github.com/zecollokaris)
+
+## LICENSE
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
