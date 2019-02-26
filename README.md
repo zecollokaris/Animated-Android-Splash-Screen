@@ -22,6 +22,51 @@ This is and easy to use Splashscreen for android with rotation added that allows
 
 - **Android Butterknife** is a **view binding tool** that uses annotations to **generate boilerplate code** for us.
 
+## THINKS TO NOTE WHILE INTEGRATING!
+
+1. Add Dependencies to in your `app/build.gradle file`.
+
+2. Add The **Main Activity** and **Splashscreen** classes to your project with their xml layouts **activity_main.xml** & **activity_splash_screen.xml**.
+
+3. Add animations using the **anim** folder which contains **downtoup.xml** & **uptodown.xml**.
+
+- From this files you can control the **animation setting**.
+
+- You can also set the **duration** as demonstrated below.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:toYDelta="0%p"
+        android:fromYDelta="100%p"
+        android:duration="3000"/>
+
+</set>
+```
+4. On the **Android Manifest** set the order of loading of activities to **start with Splash Screen**.
+
+```
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+```
+
+- This Will cause the **splash screen** to be load first as the **application launches**. 
+
+5. Depending on the the **Theme** you are using you may want to remove the Action Bar from the Splash Screen just incase your app Theme is set to have an **Action Bar**
+
+
+### Splash Page.
+
+<p align="center">
+<img align="centre" width="250" src="Spec.md/Disp1.png" alt="Splash page" />
+<p>
+
 ## PRE-REQUISITES.
 
 A couple of things to get you started:
