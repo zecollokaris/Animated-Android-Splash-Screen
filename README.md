@@ -8,6 +8,20 @@ This is and easy to use Splashscreen for android with rotation added that allows
 <img width="250" src="https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif" alt="Demo!" />
 <p>
 
+
+## LIBRARIES TO NOTE.
+
+1. **[Picasso](https://github.com/square/okhttp)**
+
+- Picasso was used to display the image logo.
+
+- **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
+
+
+2. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
+
+- **Android Butterknife** is a **view binding tool** that uses annotations to **generate boilerplate code** for us.
+
 ## PRE-REQUISITES.
 
 A couple of things to get you started:
@@ -38,25 +52,6 @@ Android SDK used to provide all the necessary developer tools to build, test, an
 
 Android SDK build tools used to debug, build, run and test an Android application.
 
-
-#### Splash Page.
-
-<p align="center">
-<img align="centre" width="250" src="Spec.md/Disp1.png" alt="Splash page" />
-<p>
-
-## LIBRARIES TO NOTE.
-
-1. **[Picasso](https://github.com/square/okhttp)**
-
-- Picasso was used to display cryptocurrency logos.
-
-- **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
-
-
-2. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
-
-- **Android Butterknife** is a **view binding tool** that uses annotations to **generate boilerplate code** for us.
 
 ## How to contribute
 
