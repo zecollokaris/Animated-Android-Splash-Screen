@@ -5,7 +5,7 @@
 This is and easy to use Splashscreen for android with rotation added that allows you to set time taken to rotate to and direction!
 
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/36197725/49332791-9a8b0f80-f5c4-11e8-86b5-fa2171734d7b.gif" alt="Demo!" />
+<img width="250" src="https://user-images.githubusercontent.com/36197725/53446706-a308b000-3a24-11e9-8df5-874d7c96e150.gif" alt="Demo!" />
 <p>
 
 
