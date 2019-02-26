@@ -66,6 +66,15 @@ This is and easy to use Splashscreen for android with rotation added that allows
 
 - Use whichever seems best to you as for this Demo changes were made in the `app/src/main/res/values/style.xml`
 
+```
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+```
+
+- **No Action Bar** was used to set as seen above as it now is `Theme.AppCompat.Light.NoActionBar`
+
+- Enjoy Your Splash screen is now ready :smile:!
+
 ### Splash Page.
 
 <p align="center">
