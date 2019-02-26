@@ -17,7 +17,7 @@
             android:layout_width="186dp"
             android:layout_height="159dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/cryptologoorigi"/>
+            app:srcCompat="@drawable/wolflogo"/>
 
     </LinearLayout>
 
@@ -33,7 +33,7 @@
             android:id="@+id/splashText"
             android:layout_width="300sp"
             android:layout_height="37dp"
-            android:text="CryptoByte"
+            android:text="Splashscreen"
             android:layout_gravity="center"
             android:textAlignment="center"
             android:textSize="25sp"
@@ -44,7 +44,7 @@
             android:layout_width="500sp"
             android:layout_height="37sp"
             android:layout_gravity="center"
-            android:text="A Trusted Source Of Live CryptoCurrency Price Charts"
+            android:text="This Is a test for the splashscreen please fill in your text to customize."
             android:textAlignment="center"
             android:textColor="@color/colorAccent"
             android:textSize="16sp"
