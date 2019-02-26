@@ -47,3 +47,13 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 ## LIBRARIES TO NOTE.
 
+1. **[Picasso](https://github.com/square/okhttp)**
+
+- Picasso was used to display cryptocurrency logos.
+
+- **Picasso** is an image library for **Android**.It caters to image loading and processing. It simplifies the process of displaying images from external locations
+
+
+2. **[ButterKnife](http://jakewharton.github.io/butterknife/)**
+
+- **Android Butterknife** is a **view binding tool** that uses annotations to **generate boilerplate code** for us.
