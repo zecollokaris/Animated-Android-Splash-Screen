@@ -24,9 +24,13 @@ This is and easy to use Splashscreen for android with rotation added that allows
 
 ## THINKS TO NOTE WHILE INTEGRATING!
 
-1. Add Dependencies to in your `app/build.gradle file`.
+1. Include the appropriate dependency (or dependencies) listed below in your `app/build.gradle` file.
+
+
 
 2. Add The **Main Activity** and **Splashscreen** classes to your project with their xml layouts **activity_main.xml** & **activity_splash_screen.xml**.
+
+- Note that for annimations to work the contents must be inside a Linear Layout.
 
 3. Add animations using the **anim** folder which contains **downtoup.xml** & **uptodown.xml**.
 
@@ -60,6 +64,7 @@ This is and easy to use Splashscreen for android with rotation added that allows
 
 5. Depending on the the **Theme** you are using you may want to remove the Action Bar from the Splash Screen just incase your app Theme is set to have an **Action Bar**
 
+- Use whichever seems best to you as for this Demo changes were made in the `app/src/main/res/values/style.xml`
 
 ### Splash Page.
 
