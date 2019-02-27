@@ -49,7 +49,7 @@ dependencies {
 
 - Replace **wolflogo** with the name of the image you want to use.
 
-3. Add animations using the **anim** folder which contains **downtoup.xml** & **uptodown.xml**.
+5. Add animations using the **anim** folder which contains **downtoup.xml** & **uptodown.xml**.
 
 - From this files you can control the **animation setting**.
 
@@ -65,11 +65,11 @@ dependencies {
 </set>
 ```
 
-4. Locate the **font folder** from `app/src/main/res/` and add it in the same location on your project.
+6. Locate the **font folder** from `app/src/main/res/` and add it in the same location on your project.
 
 - We shall use it to make the Splash screen more appealing.
 
-4. On the **Android Manifest** set the order of loading of activities to **start with Splash Screen**.
+7. On the **Android Manifest** set the order of loading of activities to **start with Splash Screen**.
 
 ```
         <activity android:name=".SplashScreen">
@@ -84,7 +84,7 @@ dependencies {
 
 - This Will cause the **splash screen** to be load first as the **application launches**. 
 
-5. Depending on the the **Theme** you are using you may want to remove the Action Bar from the Splash Screen just incase your app Theme is set to have an **Action Bar**
+8. Depending on the the **Theme** you are using you may want to remove the Action Bar from the Splash Screen just incase your app Theme is set to have an **Action Bar**
 
 - Use whichever seems best to you as for this Demo changes were made in the `app/src/main/res/values/style.xml`
 
@@ -95,7 +95,7 @@ dependencies {
 
 - **No Action Bar** was used to set as seen above as it now is `Theme.AppCompat.Light.NoActionBar`
 
-6. Include the colors listed below in your `app/src/main/res/values/colors.xml` file. To get the set designed layout of the Splash Screen. 
+9. Include the colors listed below in your `app/src/main/res/values/colors.xml` file. To get the set designed layout of the Splash Screen. 
 
 - Feel free to change the design after you run the project.
 
@@ -118,7 +118,7 @@ dependencies {
 
 
 
-6. **For a much better understanding go through the [code comments](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) in the [Splash Screen class](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) and figure how to play around with the Image.**
+10. **For a much better understanding go through the [code comments](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) in the [Splash Screen class](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) and figure how to play around with the Image.**
 
 - Enjoy! Your Splash screen is now ready :smile:
 
