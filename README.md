@@ -26,7 +26,12 @@ This is and easy to use Splashscreen for android with rotation added that allows
 
 1. Include the appropriate dependency (or dependencies) listed below in your `app/build.gradle` file.
 
-
+```
+dependencies {
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+}
+```
 
 2. Add The **Main Activity** and **Splashscreen** classes to your project with their xml layouts **activity_main.xml** & **activity_splash_screen.xml**.
 
