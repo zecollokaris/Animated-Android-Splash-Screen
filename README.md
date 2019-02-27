@@ -64,6 +64,11 @@ dependencies {
 
 </set>
 ```
+
+4. Locate the **font folder** from `app/src/main/res/` and add it in the same location on your project.
+
+- We shall use it to make the Splash screen more appealing.
+
 4. On the **Android Manifest** set the order of loading of activities to **start with Splash Screen**.
 
 ```
