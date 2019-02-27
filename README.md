@@ -78,7 +78,7 @@ dependencies {
 
 - **No Action Bar** was used to set as seen above as it now is `Theme.AppCompat.Light.NoActionBar`
 
-6. **For a much better understanding go through the [code comments](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) in the [Splash Screen class](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) and figure how to play around with Image.**
+6. **For a much better understanding go through the [code comments](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) in the [Splash Screen class](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) and figure how to play around with the Image.**
 
 - Enjoy! Your Splash screen is now ready :smile:
 
