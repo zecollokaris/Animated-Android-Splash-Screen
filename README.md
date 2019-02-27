@@ -82,7 +82,7 @@ dependencies {
 
 - Enjoy! Your Splash screen is now ready :smile:
 
-### Splash Page.
+### SPASH PAGE.
 
 <p align="center">
 <img align="centre" width="250" src="Spec.md/Disp1.png" alt="Splash page" />
