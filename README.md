@@ -35,7 +35,7 @@ dependencies {
 
 2. Add The **Main Activity** and **Splashscreen** classes to your project with their xml layouts **activity_main.xml** & **activity_splash_screen.xml**.
 
-- Note that for annimations to work the contents must be inside a Linear Layout.
+- Note that for animations to work the contents must be inside a Linear Layout.
 
 3. Add animations using the **anim** folder which contains **downtoup.xml** & **uptodown.xml**.
 
@@ -77,6 +77,8 @@ dependencies {
 ```
 
 - **No Action Bar** was used to set as seen above as it now is `Theme.AppCompat.Light.NoActionBar`
+
+6. **For a much better understanding go through the [code comments](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) in the [Splash Screen](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) class and figure how to play around with Image.**
 
 - Enjoy! Your Splash screen is now ready :smile:
 
