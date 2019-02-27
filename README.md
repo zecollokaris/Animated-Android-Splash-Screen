@@ -95,6 +95,29 @@ dependencies {
 
 - **No Action Bar** was used to set as seen above as it now is `Theme.AppCompat.Light.NoActionBar`
 
+6. Include the colors listed below in your `app/src/main/res/values/colors.xml` file. To get the set designed layout of the Splash Screen. 
+
+- Feel free to change the design after you run the project.
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262938</color>
+    <color name="colorPrimaryDark">#181A24</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTransparentPink">#FF9EA1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="colorStandardBlack">#262626</color>
+    <color name="colorDarkBlue">#001621</color>
+    <color name="colorCyanBlue">#0B9BE2</color>
+    <color name="colorMidBlue">#032B3F</color>
+    <color name="colorCoinBackground">#01242b</color>
+</resources>
+```
+
+
+
 6. **For a much better understanding go through the [code comments](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) in the [Splash Screen class](https://github.com/zecollokaris/Animated-Android-Splash-Screen/blob/master/app/src/main/java/com/splashscreen/splashscreen/SplashScreen.java) and figure how to play around with the Image.**
 
 - Enjoy! Your Splash screen is now ready :smile:
