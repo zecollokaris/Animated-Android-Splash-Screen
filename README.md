@@ -95,7 +95,7 @@ dependencies {
 
 - **No Action Bar** was used to set as seen above as it now is `Theme.AppCompat.Light.NoActionBar`
 
-9. Include the colors listed below in your `app/src/main/res/values/colors.xml` file. To get the set designed layout of the Splash Screen. 
+9. Include the colors listed below in your `app/src/main/res/values/colors.xml`. To get the set designed layout of the Splash Screen. 
 
 - Feel free to change the design after you run the project.
 
