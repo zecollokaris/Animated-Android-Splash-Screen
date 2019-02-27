@@ -39,14 +39,15 @@ dependencies {
 
 3. For the Image rotation to work You need to add your selected image to the drawable folder. `app/src/main/res/drawable`
 
-- Set the name as we will be adding it to the **xml** layout.
+- Set the name as we will be adding the image to our **xml** layout.
 
 4. Add your image to the activity_splash_screen.xml
 ```
 <ImageView
             app:srcCompat="@drawable/wolflogo"/>
 ```
-- Replace **wolflogo** with the name set for your image above.
+
+- Replace **wolflogo** with the name of the image you want to use.
 
 3. Add animations using the **anim** folder which contains **downtoup.xml** & **uptodown.xml**.
 
